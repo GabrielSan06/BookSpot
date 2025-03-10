@@ -1,6 +1,6 @@
 {
   "name": "BookSpot",
-  "short_name": "BS",
+  "short_name": "BkSt",
   "description": "Pesquise e favorite livros utilizando a API do Google Books",
   "start_url": "/",
   "display": "standalone",
