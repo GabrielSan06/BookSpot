@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favoritos - BookSpot</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="conteudo">
+
+    <div class="container">
+      <h1 class="titulo-favorito">Meus Favoritos</h1>
+      <ul id="favoritesList"></ul>
+    </div>
+
+  </div>
+  <!-- Barra de navegação fixa no rodapé -->
+  <nav class="bottom-nav">
+    <button onclick="window.location.href='index.html'" class="nav-btn" id="searchBtnMobile">
+      🔍 Pesquisa
+    </button>
+    <button onclick="window.location.href='favorites.html'" class="nav-btn" id="favoritesBtnMobile">
+      ❤️ Favoritos
+    </button>
+  </nav>
+
+  <script src="src/js/app.js"></script>
+</body>
+</html>
