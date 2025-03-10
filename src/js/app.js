@@ -7,6 +7,13 @@ const searchBtn = document.getElementById("searchBtn");
 const booksList = document.getElementById("booksList");
 const favoritesList = document.getElementById("favoritesList");
 
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js")
+    .then(() => console.log("Service Worker registrado com sucesso."))
+    .catch((err) => console.log("Erro ao registrar o Service Worker:", err));
+}
+
 // Função para buscar livros da API
 const searchBooks = async () => {
   const query = searchInput.value;

@@ -8,6 +8,11 @@
   "theme_color": "#007BFF",
   "icons": [
     {
+      "src": "/icons/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
       "src": "/icons/80.png",
       "sizes": "80x80",
       "type": "image/png"
